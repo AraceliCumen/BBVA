@@ -1,0 +1,40 @@
+/*login*/
+.border{
+    background-color: #02428C;
+    height: 100vh;
+    position: relative
+    
+
+}
+.white{
+  border-radius: 20px;
+  height: 90%;
+  width: 80%;
+  display: block;
+  position: absolute;
+  margin: 15% 5%;
+  
+
+   
+}
+.circle{
+    margin-top: 10%;
+    height: 30%;
+    width:60%;
+    margin-left: 21%;
+    background-color: gainsboro;
+
+}
+.containerButtons{
+    margin-top: 85%;
+}
+
+.google{
+    width: 226.14px;
+
+}
+.facebook{
+    width: 226.14px;
+    margin-top: 10%;
+    background-color: #02428C;
+}
