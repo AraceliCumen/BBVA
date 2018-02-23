@@ -1,0 +1,31 @@
+:root {
+  --blue: #02428C;
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.padd-lef {
+  padding-left: 2rem;
+}
+
+.padd-top {
+  padding-top: 1rem;
+}
+
+.size-2 {
+  font-size: 2rem;
+}
+
+.bold-7 {
+  font-weight: 700;
+}
+
+#donut1 {
+  height: 40vh;
+}
+
+.mar-bott {
+  margin-bottom: 0;
+}
