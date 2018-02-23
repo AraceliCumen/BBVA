@@ -1,21 +1,22 @@
+/* styles nav */
 .logo {
-    width: auto;
-    height: 20px;
-    padding-left: 15%;
+  width: auto;
+  height: 20px;
+  padding-left: 15%;
 }
 
 :root {
-    --blue: #02428C;
-    --lightBlue: #41CEF8;
-    --blueTwo: #0065BA;
-    --blueThree: #003F8D;
-    --blueFour: #00AEEB;
-    --blueFive: #0093E2;
-    --blueSix: #9BE1FB;
+  --blue: #02428C;
+  --lightBlue: #41CEF8;
+  --blueTwo: #0065BA;
+  --blueThree: #003F8D;
+  --blueFour: #00AEEB;
+  --blueFive: #0093E2;
+  --blueSix: #9BE1FB;
 }
 
 .colorBlue {
-    background: var(--blue);
+  background: var(--blue);
 }
 
 .mt-1 {
@@ -32,11 +33,11 @@
 }
 
 .circleUser {
-    background: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 100px;
-    margin: 10px;
+  background: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  margin: 10px;
 }
 
 #usernew {
@@ -48,61 +49,67 @@
 }
 
 .graphic {
-  border: 1px solid gray;
+  border-radius: 10px;
   padding: 5px;
   height: 40vh;
   width: auto;
 }
 
 .usernameColor {
-    color: var(--blueThree);
-    font-weight: bolder;
+  color: var(--blueThree);
+  font-weight: bolder;
 }
 
-.spendMonth {
-    margin-top: 10px;
-    background-color: #F2F2F2;
-    height: 40vh;
-    width: auto;
-    border-radius: 20px;
-    padding: 5vh;
-    box-sizing: border-box;
-    color: #828282;
+.spend-month {
+  margin-top: 10px;
+  background-color: #F2F2F2;
+  height: 25vh;
+  width: auto;
+  border-radius: 20px;
+  padding: 5vh;
+  box-sizing: border-box;
+  color: #828282;
 }
+
+.spend-month-p {
+  box-sizing: border-box;
+  color: #828282;
+  font-size: 2rem;
+}
+
 .grayLine {
-    background: #828282;
+  background: #828282;
 }
-.anualSpend {
-    margin-top: 10px;
-    height: 40vh;
-    width: auto;
-    border: 1px solid gray;
-    border-radius: 20px;
-}
-.pet {
-    height: 10vh;
-    width: auto;
-}
-.quote {
-    background: #c9c9c9;
-    border-radius: 20px;
-    padding: 10px;
-}
-.bgcolor {
-    background: gray;
-    color: white;
-    padding: 10px;
-    box-sizing: border-box;
-}
-footer a {
-    margin: 10px;
-    color: white;
-}
-/* desktop */
-@media (min-width:992px) {
-    .logo {
 
-    }
+.anualSpend {
+  margin-top: 10px;
+  height: 40vh;
+  width: auto;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+.pet {
+  height: 10vh;
+  width: auto;
+}
+
+.quote {
+  background: #c9c9c9;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.bgcolor {
+  background: gray;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+footer a {
+  margin: 10px;
+  color: white;
 }
 
 /*Styles splash*/
@@ -112,7 +119,7 @@ footer a {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.container {
+#change {
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -181,8 +188,6 @@ footer a {
 }
 
 .color .bg{
-  /* background-image: url(../assets/images/celeste.gif);
-  background-size: cover; */
   background-color: #c5ecea82;
   height: 85%;
   width: 100%;
