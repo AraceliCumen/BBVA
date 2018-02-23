@@ -237,6 +237,43 @@ footer a {
   padding-top: 50px;
 }
 
+/* Style for view credits card */
+
+.nav-background {
+  background: #003F8D; 
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+[alt="tarjeta"] {
+  width: 100%;
+}
+
+.icon-calendar-card {
+  font-size: 3rem;
+  text-align: right;
+}
+
+[alt="shop"] {
+  width: 100%;
+  height: 100%;
+}
+
+.title-card-section {
+  display: inline-block;
+}
+
+.button-card {
+  font-size: 0.7rem;
+}
+
+.bor-rad {
+  border-radius: 8px;
+}
+
 @media (min-width: 768px) {
   .color .bg {
     width: 35.333333%;
