@@ -257,3 +257,14 @@ footer a {
     font-size: 100px;
   }
 }
+
+.ruta {
+  background-color: #4278A6;
+  border-radius: 5px;
+  color: white;
+}
+
+#map {
+  height: 70vh;
+  /* width: 500px; */
+}
