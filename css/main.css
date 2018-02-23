@@ -46,7 +46,7 @@
     clear: both;
 }
 .graphic {
-    border: 1px solid gray;
+    border-radius: 10px;
     padding: 5px;
     height: 40vh;
     width: auto;
@@ -55,15 +55,21 @@
     color: var(--blueThree);
     font-weight: bolder;
 }
-.spendMonth {
+.spend-month {
     margin-top: 10px;
     background-color: #F2F2F2;
-    height: 40vh;
+    height: 25vh;
     width: auto;
     border-radius: 20px;
     padding: 5vh;
     box-sizing: border-box;
     color: #828282;
+}
+
+.spend-month-p {
+    box-sizing: border-box;
+    color: #828282;
+    font-size: 2rem;
 }
 .grayLine {
     background: #828282;
