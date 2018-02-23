@@ -74,7 +74,7 @@
 .spend-month-p {
   box-sizing: border-box;
   color: #828282;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .grayLine {
@@ -326,7 +326,13 @@ footer a {
     .size-type {
         font-size: 0.9rem;
     }
-
+    .spend-month {
+      position: relative;
+      bottom: 50px;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      height: 120px;
+    }
 }
 /* acounts style */
 .color-blue-text {
@@ -339,14 +345,6 @@ footer a {
 
 .bold {
   font-weight: 700;
-}
-
-.display-none {
-  display: none;
-}
-
-.display-block {
-  display: block;
 }
 
 .img-size {
