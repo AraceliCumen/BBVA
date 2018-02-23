@@ -6,13 +6,13 @@
 }
 
 :root {
-  --blue: #02428C;
-  --lightBlue: #41CEF8;
-  --blueTwo: #0065BA;
-  --blueThree: #003F8D;
-  --blueFour: #00AEEB;
-  --blueFive: #0093E2;
-  --blueSix: #9BE1FB;
+  --blue: #02428c;
+  --lightBlue: #41cef8;
+  --blueTwo: #0065ba;
+  --blueThree: #003f8d;
+  --blueFour: #00aeeb;
+  --blueFive: #0093e2;
+  --blueSix: #9be1fb;
 }
 
 .colorBlue {
@@ -20,7 +20,7 @@
 }
 
 .mt-1 {
-    margin-top: 7%;
+  margin-top: 7%;
 }
 
 .respondMenu {
@@ -62,7 +62,7 @@
 
 .spend-month {
   margin-top: 10px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   height: 25vh;
   width: auto;
   border-radius: 20px;
@@ -115,111 +115,116 @@ footer a {
 /*Styles splash*/
 
 .splash {
-	background:  rgb(86, 162, 250);
-	font-family: 'Roboto Condensed', sans-serif;
+  background: rgb(86, 162, 250);
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 #change {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 0;
-  background: radial-gradient(#1e3f85e7, rgba(35, 99, 196, 0.719) 35%, rgba(157, 219, 243, 0.795));
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: radial-gradient(
+    #1e3f85e7,
+    rgba(35, 99, 196, 0.719) 35%,
+    rgba(157, 219, 243, 0.795)
+  );
 }
 
 .content {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0px;
-	top: 0px;
-	z-index: 1000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
 }
 
 .container h2 {
-	position: absolute;
-	top: 50%;
-	line-height: 50px;
-	height: 40px;
-	margin-top: -50px;
-	font-size: 40px;
-	width: 100%;
-	text-align: center;
-	color: transparent;
-	animation: blurFadeInOut 3s ease-in backwards;
+  position: absolute;
+  top: 50%;
+  line-height: 50px;
+  height: 40px;
+  margin-top: -50px;
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  color: transparent;
+  animation: blurFadeInOut 3s ease-in backwards;
 }
 
 .container h2.frame-1 {
-	animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .container h2.frame-2 {
-	animation-delay: 2.5s;
+  animation-delay: 2.5s;
 }
 
-@keyframes blurFadeInOut{
-	0%{
-		opacity: 0;
-		text-shadow: 0px 0px 40px #fff;
-		transform: scale(0.9);
-	}
-	20%,75%{
-		opacity: 1;
-		text-shadow: 0px 0px 1px #fff;
-		transform: scale(1);
-	}
-	100%{
-		opacity: 0;
-		text-shadow: 0px 0px 50px #fff;
-		transform: scale(0);
-	}
+@keyframes blurFadeInOut {
+  0% {
+    opacity: 0;
+    text-shadow: 0px 0px 40px #fff;
+    transform: scale(0.9);
+  }
+  20%,
+  75% {
+    opacity: 1;
+    text-shadow: 0px 0px 1px #fff;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    text-shadow: 0px 0px 50px #fff;
+    transform: scale(0);
+  }
 }
 
 /* styles login */
 
-.border{
-  background: linear-gradient(140deg, #283D49, #4278A6);
+.border {
+  background: linear-gradient(140deg, #283d49, #4278a6);
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.color .bg{
+.color .bg {
   background-color: #c5ecea82;
   height: 85%;
   width: 100%;
   display: block;
   position: absolute;
   width: 85.333333%;
-  border-radius:10px;
-  border:#fff 1px solid;
-  box-shadow: rgba(0,0,0,0.5) 0px 3px 20px;
+  border-radius: 10px;
+  border: #fff 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 20px;
 }
 
-.close{
+.close {
   width: 20%;
 }
 
-.row  .container-login{
+.row .container-login {
   padding: 0;
 }
 
-.containerButtons{
+.containerButtons {
   margin-top: 45%;
 }
 
-.google{
+.google {
   border-radius: 5px;
   margin-left: -4%;
 }
 
-.facebook{
+.facebook {
   margin-top: 10%;
   border-radius: 5px;
-  background-color: #0E177C;
+  background-color: #0e177c;
   margin-left: -4%;
 }
 
@@ -232,23 +237,23 @@ footer a {
   padding-top: 50px;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .color .bg {
     width: 35.333333%;
   }
 
-  .containerButtons{
+  .containerButtons {
     margin-top: 100%;
   }
 
-  .google{
+  .google {
     margin-top: -30%;
     margin-left: -4%;
   }
 
- /* Styles splash*/
- .splash {
-	  background:  rgb(86, 162, 250);
+  /* Styles splash*/
+  .splash {
+    background: rgb(86, 162, 250);
   }
 
   .container h2 {
@@ -258,20 +263,34 @@ footer a {
   }
 }
 
-/* acounts style */
+@media (max-width: 768px) {
+    .size-type {
+        font-size: 0.9rem;
+    }
 
+}
+/* acounts style */
 .color-blue-text {
-    color: var(--blue);
+  color: var(--blue);
 }
 
 .counts-title {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-.display {
-    display: none;
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.img-size {
+    height: 10px;
+    width: 10px;
 }
