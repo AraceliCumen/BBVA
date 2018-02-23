@@ -29,21 +29,21 @@ function begin() {
         // console.log(moves);
 
         $containerCard.append(`
-        <div class="flex">
-        <div class="col s3 m2">
+        <div class="flex button-card" data-cuenta="${numCta}">
+        <div class="col s5 m2">
             <img src="../assets/images/tarjeta.png" alt="tarjeta" class="bor-rad ">
           </div>
-          <div class="col s5 m8">
+          <div class="col s10 m8">
             <p>${numCta}</p>
             <p>${tipoCta || typeCta}</p>
           </div>
-          <div class="col s4">
+          <div class="col s4 hide-on-small-only">
             <a class="btn btn-primary col s12 button-card" data-cuenta="${numCta}" href="#">MOVIMIENTO</a>
           </div>
           </div>
         `);
 
-        var informationCards = $('#container-card a');
+        var informationCards = $('#container-card .button-card');
 
         informationCards.on('click', function() {
           var cuenta = $(this).attr('data-cuenta');
@@ -67,7 +67,7 @@ function begin() {
               </div>
               `);
             });
-          }
+          } 
         });
       });
     });

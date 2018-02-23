@@ -116,7 +116,6 @@ footer a {
 
 .splash {
   background: rgb(86, 162, 250);
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 #change {
@@ -142,7 +141,7 @@ footer a {
   z-index: 1000;
 }
 
-.container h2 {
+#change h2 {
   position: absolute;
   top: 50%;
   line-height: 50px;
@@ -155,11 +154,11 @@ footer a {
   animation: blurFadeInOut 3s ease-in backwards;
 }
 
-.container h2.frame-1 {
+#change h2.frame-1 {
   animation-delay: 0s;
 }
 
-.container h2.frame-2 {
+#change h2.frame-2 {
   animation-delay: 2.5s;
 }
 
@@ -267,8 +266,22 @@ footer a {
 }
 
 .button-card {
-  font-size: 0.7rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
 }
+
+.button-card:focus, .button-card:hover {
+  background: #c3c0c042;
+}
+
+.selection{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+
 
 .bor-rad {
   border-radius: 8px;
