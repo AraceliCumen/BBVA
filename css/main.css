@@ -229,7 +229,7 @@ footer a {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.container {
+#change {
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -275,7 +275,7 @@ footer a {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.container {
+#change {
 	position: fixed;
 	top: 0px;
 	left: 0px;
