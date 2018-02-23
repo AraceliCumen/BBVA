@@ -22,7 +22,7 @@
   font-weight: 700;
 }
 
-#donut1 {
+#donut1, #chart-div{
   height: 40vh;
 }
 
