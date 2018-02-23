@@ -271,7 +271,18 @@ footer a {
 
 #map {
   height: 70vh;
+  border: #fff 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 20px;
   /* width: 500px; */
+}
+
+.box_input {
+  margin-top: 20px;
+}
+
+#trazar {
+  margin-bottom: 20px;
+  margin-top: 15px;
 }
 
 @media (max-width: 768px) {
