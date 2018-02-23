@@ -1,3 +1,6 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
 .logo {
     width: auto;
     height: 20px;
@@ -35,13 +38,65 @@
     border-radius: 100px;
     margin: 10px;
 }
+.titleUser {
+    clear: both;
+}
+.graphic {
+    border: 1px solid gray;
+    padding: 5px;
+    height: 40vh;
+    width: auto;
+}
+.usernameColor {
+    color: var(--blueThree);
+    font-weight: bolder;
+}
+.spendMonth {
+    margin-top: 10px;
+    background-color: #F2F2F2;
+    height: 40vh;
+    width: auto;
+    border-radius: 20px;
+    padding: 5vh;
+    box-sizing: border-box;
+    color: #828282;
+}
+.grayLine {
+    background: #828282;
+}
+.anualSpend {
+    margin-top: 10px;
+    height: 40vh;
+    width: auto;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.pet {
+    height: 10vh;
+    width: auto;
+}
+.quote {
+    background: #c9c9c9;
+    border-radius: 20px;
+    padding: 10px;
+}
+.bgcolor {
+    background: gray;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+footer a {
+    margin: 10px;
+    color: white;
+}
 /* media querys */
 @media (min-width:768px) {
 
 }
 /* desktop */
 @media (min-width:992px) {
-    .logo {
-        
+    .spendMonth {
+        margin-top: 0;
     }
 }
