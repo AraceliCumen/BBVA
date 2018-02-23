@@ -1,40 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
-  <link rel="stylesheet" href="../css/main.css">
-  <title>Document</title>
-</head>
-
-<body class="border flex">
-  <main class="color">
-    <section class=" container-login border  col m12    ">
-      <div class="center-aling white  col s10 col s10 offset-s1   col m4 col m4 offset-m4">
-        <div class=" col s6 col s6 offset-s3 col s6 offset-s3 circle  center-align "></div>
-      </div>
-      <div class=" containerButtons row">
-        <a id="start-login" class=" col s6 col s6 offset-s3 col google #f44336 red waves-effect waves-light btn-large">
-          <i class="material-icons left"></i>Sing in with Google</a>
-        <a id="start-facebook" class="col s6 col s6 offset-s3 facebook  indigo waves-effect waves-light btn-large">
-          <i class="material-icons left "></i>Sing in with Mail</a>
-          <button class="close"></button>
-      </div>
-    </section>
-  </main>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-
-  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-
-  <Script src="js/initial.js"></script>
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-
-<Script src="../js/login.js"></script>
-</body>
-
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../assets/images/logobbva.ico">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>BBVA Continental</title>
+  </head>
+  <body class="border">
+    <main class="color">
+      <section class="container-login border">
+        <div class="center-aling bg">
+          <figure class="userLogo">
+            <img class="user_id responsive-img" src="../assets/images/usuario.png" alt="user">
+          </figure>
+        </div>
+        <div class="containerButtons row">
+          <a id="start-login" class="col s12 google red waves-effect waves-light btn-large"><i class="fab fa-google fa-lg space"></i> Google</a>
+          <a id="start-facebook" class="col s12 facebook waves-effect waves-light btn-large"> <i class="fab fa-facebook-f fa-lg space"></i>  Facebook</a>
+        </div>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <Script src="js/initial.js"></script>
+    <script src="../vendors/materialize/js/materialize.min.js"></script>
+    <Script src="../js/login.js"></script>
+  </body>
 </html>
