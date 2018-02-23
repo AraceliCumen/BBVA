@@ -1,0 +1,47 @@
+.logo {
+    width: auto;
+    height: 20px;
+    padding-left: 15%;
+}
+:root {
+    --blue: #02428C;
+    --lightBlue: #41CEF8;
+    --blueTwo: #0065BA;
+    --blueThree: #003F8D;
+    --blueFour: #00AEEB;
+    --blueFive: #0093E2;
+    --blueSix: #9BE1FB;
+}
+
+.colorBlue {
+    background: var(--blue);
+}
+
+.mt-1 {
+    margin-top: 7%;
+}
+
+.respondMenu {
+    background: var(--blueTwo);
+}
+.infoUser {
+    height: 10vh;
+    width: auto;
+}
+.circleUser {
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: 10px;
+}
+/* media querys */
+@media (min-width:768px) {
+
+}
+/* desktop */
+@media (min-width:992px) {
+    .logo {
+        
+    }
+}
