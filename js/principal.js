@@ -3,6 +3,10 @@ $(document).ready(function () {
 });
 
 var $spendMonth = $('.spend-month-p');
+var $numberCount = $('.number-count');
+var $typeCount = $('.type-count');
+var $residue = $('.residue');
+var $typeCurrent = $('.type-curr');
 var url = 'https://alejandracp.github.io/BBVA-Json/data.json';
 
 var proxy = 'https://cors-anywhere.herokuapp.com/';
@@ -31,16 +35,21 @@ var j = 0;
 function dataAccounts(data) {
   var cantAcounts = data.DATA.LISTA_CTA;
   var creditCount = data.DATA.LISTA_TARJ;
-//   totalAcounts.html(`Tienes ${cantAcounts.length} cuentas en BBVA`);
+
   $.each(cantAcounts, function(index, value) {
-    // numbersAcounts.append(`<p>${value.NCUENTA}</p>`);
     var num = parseFloat(value.SALDO.replace(',', ''));
-    // numbersAcounts.append(`<p>${num}</p>`);
+    $numberCount.append(`<p class="color-blue-text bold">${value.NCUENTA}</p>`);
+    $numberCount.append(`<p class="type-count">${value.TIPO_CTA}</p>`);
+    $residue.append(`<p class="color-blue-text bold">${value.SALDO}</p>`);
+    $residue.append(`<p class="type-count">NUEVOS ${value.MONEDA}</p>`);
     // Suma total de cuentas saldo
     i += num;
   });
   $.each(creditCount, function(index, value) {
-    // numbersAcounts.append(`<p>${value.NUMEROTARJETA}</p>`);
+    $numberCount.append(`<p class="color-blue-text bold">${value.NUMEROTARJETA}</p>`);
+    $numberCount.append(`<p class="type-count">CUENTA ${value.TIPOTARJETA}</p>`);
+    $residue.append(`<p class="color-blue-text bold">${value.CREDITODISPONIBLE}</p>`);
+    $residue.append(`<p class="type-count">NUEVOS ${value.CURRENCY}</p>`);
     var creditAble = parseFloat(value.CREDITODISPONIBLE.replace(',', ''));
     var creditLimit = parseFloat(value.LIMITECREDITO.replace(',', ''));
     consum = creditLimit - creditAble;

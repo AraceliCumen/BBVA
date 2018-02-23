@@ -257,3 +257,21 @@ footer a {
     font-size: 100px;
   }
 }
+
+/* acounts style */
+
+.color-blue-text {
+    color: var(--blue);
+}
+
+.counts-title {
+    margin-bottom: 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.display {
+    display: none;
+}

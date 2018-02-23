@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="../assets/images/logobbva.ico">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>BBVA Continental</title>
+</head>
+
+<body class="">
+  <nav class="colorBlue">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo left">
+        <img src="../assets/images/LOGO.png" alt="Logo" class="logo">
+      </a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger right">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="sass.html">Dashboard</a>
+        </li>
+        <li>
+          <a href="badges.html">Mi cuenta</a>
+        </li>
+        <li>
+          <a href="collapsible.html">Tarjetas de Credito</a>
+        </li>
+        <li>
+          <a href="mobile.html">Mensajes</a>
+        </li>
+        <li>
+          <a href="mobile.html">Ubicanos</a>
+        </li>
+        <li>
+          <a href="mobile.html">Configuración</a>
+        </li>
+        <li>
+          <a href="#">Log out</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <ul class="sidenav blue darken-4" id="mobile-demo">
+    <li>
+      <div class="infoUser">
+        <div class="circleUser left">
+          <img id="usernew" alt="">
+        </div>
+        <h6 class="center white-text">¡Hola!</h6>
+        <p class="center white-text" id="username"></p>
+      </div>
+    </li>
+    <hr>
+    <li>
+      <a href="principal.html" class="white-text">
+        <i class="fas fa-chart-pie"></i> Dashboard
+        <i class="fas fa-angle-right right-align right mt-1"></i>
+      </a>
+    </li>
+    <li>
+      <a href="acounts.html" class="white-text">
+        <i class="far fa-address-card"></i> Mi cuenta
+        <i class="fas fa-angle-right right-align right mt-1"></i>
+      </a>
+    </li>
+    <li>
+      <a href="collapsible.html" class="white-text">
+        <i class="far fa-credit-card"></i> Tarjetas de Credito
+        <i class="fas fa-angle-right right-align right mt-1"></i>
+      </a>
+    </li>
+    <li>
+      <a href="mobile.html" class="white-text">
+        <i class="far fa-envelope"></i> Mensajes
+        <i class="fas fa-angle-right right-align right mt-1"></i>
+      </a>
+    </li>
+    <li>
+      <a href="mobile.html" class="white-text">
+        <i class="fas fa-map-marker-alt"></i> Ubicanos
+        <i class="fas fa-angle-right right-align right mt-1"></i>
+      </a>
+    </li>
+    <hr>
+    <li>
+      <a href="mobile.html" class="white-text">
+        <i class="fas fa-cog"></i> Configuración
+        <i class="fas fa-angle-right right-align right mt-1"></i>
+      </a>
+    </li>
+    <li>
+      <a href="mobile.html" class="white-text">
+        <i class="fas fa-user-secret"></i> Privacidad y terminos
+        <i class="fas fa-angle-right right-align right mt-1"></i>
+      </a>
+    </li>
+    <li>
+      <a id="close" href="login.html" class="white-text">Cerrar Sesión
+        <i class="fas fa-power-off right-align right mt-1"></i>
+      </a>
+    </li>
+  </ul>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h4 class="counts-title">MIS CUENTAS</h4>
+      </div>
+    </div>
+
+    <hr class="colorBlue">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col s7 m4">
+        <h6 class="center-align bold">TIPO DE CUENTA</h6>
+        <div class="number-count"></div>
+      </div>
+      <div class="col m4"></div>
+      <div class="col s5 m4">
+        <h6 class="center-align bold">SALDO</h6>
+        <div class="residue center-align"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <Script src="js/initial.js"></script>
+  <script src="../vendors/materialize/js/materialize.min.js"></script>
+  <Script src="../js/principal.js"></script>
+</body>
+
+</html>
