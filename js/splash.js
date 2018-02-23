@@ -1,7 +1,4 @@
 // Initialize Firebase
-
-
-
  
   var config = {
     apiKey: "AIzaSyB1mtytm1Rk3eioxWX8liyO5xtudlkeKg4",
@@ -12,3 +9,14 @@
     messagingSenderId: "555831766900"
   };
   firebase.initializeApp(config);
+
+  
+  $(document).ready(function () {
+
+    setTimeout(function(){
+      $('.splash').fadeOut();
+      window.location.href='index.html';
+    }, 4000);
+
+
+})

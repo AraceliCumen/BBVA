@@ -25,7 +25,7 @@ $(document).ready(function () {
           profilePhoto: user.photoURL
         });
         console.log('todo bien');
-        window.location.href = '../views/profile.html';
+        window.location.href = '../vista.html';
         // ...
 
       })
