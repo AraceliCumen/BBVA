@@ -70,4 +70,30 @@ $(document).ready(function() {
   // Eventos para inicio sesión
   $('#start-login').on('click', IngresoGoogle);
   $('#start-facebook').on('click', IngresoFacebook);
+
+  // Eventos para inicio sesión
+  $('#start-login').on('click', IngresoGoogle);
+  $('#start-facebook').on('click', IngresoFacebook);
+
+  // Funcion para extraer datos de usuario
+    var $username = $('#username');
+    // var $userEmail = $('.directionMail');
+    var $profilePhoto = $('#usernew');
+    firebase.auth().onAuthStateChanged(function(user) {
+      if (user) {
+        // El usuario ha iniciado sesión
+        var name = user.displayName;
+        var email = user.email;
+        var photoUrl = user.photoURL;
+        var emailVerified = user.emailVerified;
+        var uid = user.uid;
+        console.log(user);
+        $username.text(name);
+        // $userEmail.text(email);
+        $profilePhoto.attr('src', photoUrl);
+      } else {
+        // Ningún usuario ha iniciado sesión
+      }
+    });
+
 });

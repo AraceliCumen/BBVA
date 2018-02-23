@@ -38,6 +38,10 @@
     border-radius: 100px;
     margin: 10px;
 }
+
+#usernew {
+  width: 100%;
+}
 .titleUser {
     clear: both;
 }
